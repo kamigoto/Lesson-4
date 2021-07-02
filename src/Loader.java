@@ -11,7 +11,8 @@ public class Loader {
         Cat cat_4 = new Cat("Lulu");
         Cat cat_5 = new Cat("Murzik");
 
-        double result = cat_1.getWeight();
+        cat_1.getWeight();
+
 
         System.out.println("Cat's name: " + cat_1.getName() + ", weight: " + cat_1.getWeight() + " , status:" + cat_1.getStatus());
         System.out.println("Cat's name: " + cat_2.getName() + ", weight: " + cat_2.getWeight() + " , status:" + cat_2.getStatus());
