@@ -16,18 +16,17 @@ public class Cat
 
     public Cat()
     {
-        weight = 1500.0 + 3000.0 * Math.random();
-        System.out.println("Set weight " + weight);
-        originWeight = weight;
-        minWeight = 1000.0;
-        maxWeight = 9000.0;
+        this.weight = 1500.0 + 3000.0 * Math.random();
+        this.originWeight = weight;
+        this.minWeight = 1000.0;
+        this.maxWeight = 9000.0;
 
     }
 
 
 
     public Cat(String name)
-    {
+    {   this();
         this.name = name;
     }
 
